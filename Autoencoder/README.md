@@ -5,6 +5,8 @@
 * Impose a bottleneck in the network
 * Bottleneck forces a compressed represntation of the input.
 
+![Autoencoder](/url "title")
+
 ## Assumption
 * High degree of correlation/structure exist in the data.
 * For uncorrelated data(input data that are independent), then the compression and subsequent reconstrction would be difficult.
@@ -16,6 +18,6 @@
 4. **Contractive Autoencoder**
 5. **Convolutional Autoencoder**
 
-
+### How it is different from PCA?
 
 
