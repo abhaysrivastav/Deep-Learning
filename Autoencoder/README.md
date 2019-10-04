@@ -4,9 +4,6 @@
 * Representation Learning
 * Impose a bottleneck in the network
 * Bottleneck forces a compressed represntation of the input.
-
-![Autoencoder](/url "title")
-
 ## Assumption
 * High degree of correlation/structure exist in the data.
 * For uncorrelated data(input data that are independent), then the compression and subsequent reconstrction would be difficult.
@@ -25,7 +22,7 @@
 
 ![](/Autoencoder/docs/Autoencoderlayerbylayer1.PNG "Layer By Layer Auto-encoding")
 
-![](/Autoencoder/docs/Autoencoderlayerbylayer2.PNG)
+![](/Autoencoder/docs/Autoencoderlayerbylayer2.PNG "")
 
 
 ### End to End Auto-encoding
