@@ -21,3 +21,6 @@
 ### How it is different from PCA?
 
 
+### Layer by Layer Pre-training
+
+### Sparse Autoencoder
