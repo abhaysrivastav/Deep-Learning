@@ -27,7 +27,9 @@
 
 ![](/Autoencoder/docs/Autoencoderlayerbylayer2.PNG)
 
+
 ### End to End Auto-encoding
+
 
 ### Sparse Autoencoder
 * Interesting features can be learnt even when number of nodes in hidden layer is large. 
