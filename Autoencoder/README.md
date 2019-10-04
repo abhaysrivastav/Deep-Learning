@@ -23,6 +23,9 @@
 
 ### Layer by Layer Autoencoding
 
+![](/Autoencoder/docs/Autoencoderlayerbylayer1.PNG "Layer By Layer Auto-encoding")
+
+![](/Autoencoder/docs/Autoencoderlayerbylayer2.PNG)
 
 ### End to End Auto-encoding
 
