@@ -21,7 +21,10 @@
 ### How it is different from PCA?
 
 
-### Layer by Layer Pre-training
+### Layer by Layer Autoencoding
+
+
+### End to End Auto-encoding
 
 ### Sparse Autoencoder
 * Interesting features can be learnt even when number of nodes in hidden layer is large. 
