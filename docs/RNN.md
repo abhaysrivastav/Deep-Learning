@@ -49,4 +49,25 @@ We will repeat these steps as many times as we need until we decide that our sys
 
 ## Feedforward
 
+Assuming that we have a single hidden layer, we will need two steps in our calculations. The first will be calculating the value of the hidden states and the latter will be calculating the value of the outputs.
 
+<img src="images/nn.png" alt="hi" class="inline"/>
+
+Using vector by matrix multiplication, we can look at this computation the following way:
+<img src="images/equation1.png" alt="hi" class="inline"/>
+
+After finding h', we need an activation function Φ(xW1) to finalize the computation of the hidden layer's values. This activation function can be a Hyperbolic Tangent, a Sigmoid or a ReLU function. We can use the following two equations to express the final hidden vector.
+Since Wij represents the weight component in the weight matrix, connecting neuron i from the input to neuron j in the hidden layer, we can also write these calculations in the following way: (notice that in this example we have n inputs and only 3 hidden neurons)
+<img src="images/equation2.png" alt="hi" class="inline"/>
+
+The process of calculating the output vector is mathematically similar to that of calculating the vector of the hidden layer. We use, again, a vector by matrix multiplication, which can be followed by an activation function. The vector is the newly calculated hidden layer and the matrix is the one connecting the hidden layer to the output.
+Essentially, each new layer in an neural network is calculated by a vector by matrix multiplication, where the vector represents the inputs to the new layer and the matrix is the one connecting these new inputs to the next layer.
+
+<img src="images/equation3.png" alt="hi" class="inline"/>
+
+The two error functions that are most commonly used are the Mean Squared Error (MSE) (usually used in regression problems) and the cross entropy (usually used in classification problems).
+
+http://tutorial.math.lamar.edu/pdf/Common_Derivatives_Integrals.pdf
+
+## Backpropagation Theory
+In the backpropagation process we minimize the network error slightly with each iteration, by adjusting the weights.
