@@ -24,3 +24,29 @@ Please use these resources if you would like to read more about the Vanishing Gr
 **A RNN is multiple copy of the same network that receives the inputs at different times as well as it's previous hidden state**.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Recurrent_neural_network_unfold.svg" alt="hi" class="inline"/>
+
+### Feedforward Neural Network - A Reminder
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Colored_neural_network.svg/280px-Colored_neural_network.svg.png" alt="hi" class="inline"/>
+
+**Training**
+
+and
+
+**Evaluation**.
+
+During the training phase, we take the data set (also called the training set), which includes many pairs of inputs and their corresponding targets (outputs). Our goal is to find a set of weights that would best map the inputs to the desired outputs. In the evaluation phase, we use the network that was created in the training phase, apply our new inputs and expect to obtain the desired outputs.
+
+The training phase will include two steps:
+
+**Feedforward**
+
+and
+
+**Backpropagation**
+
+We will repeat these steps as many times as we need until we decide that our system has reached the best set of weights, giving us the best possible outputs.
+
+## Feedforward
+
+
