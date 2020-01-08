@@ -110,4 +110,4 @@ In RNNs the state layer depended on the current inputs, their corresponding weig
 
 The output vector is calculated exactly the same as in FFNNs. It can be a linear combination of the inputs to each output node with the corresponding weight matrix W:
 
-<img src="images/equation32.png" alt="Elman Network" class="inline"/>
+<img src="images/equation32.PNG" alt=" " class="inline"/>
