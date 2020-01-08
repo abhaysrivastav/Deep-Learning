@@ -71,3 +71,43 @@ http://tutorial.math.lamar.edu/pdf/Common_Derivatives_Integrals.pdf
 
 ## Backpropagation Theory
 In the backpropagation process we minimize the network error slightly with each iteration, by adjusting the weights.
+[TBA]
+
+We are finally ready to talk about Recurrent Neural Networks (or RNNs), where we will be opening the doors to new content!
+
+RNNs are based on the same principles as those behind FFNNs.There are two main differences between FFNNs and RNNs. The Recurrent Neural Network uses:
+
+* sequences as inputs in the training phase, and
+* memory elements
+
+Memory is defined as the output of hidden layer neurons, which will serve as additional input to the network during next training step.
+The basic three layer neural network with feedback that serve as memory inputs is called the Elman Network and is depicted in the following picture:
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Elman_srnn.png/330px-Elman_srnn.png" alt="Elman Network" class="inline"/>
+
+As we've see, in FFNN the output at any time t, is a function of the current input and the weights. This can be easily expressed using the following equation:
+
+<img src="images/equation28.png" alt=" " class="inline"/>
+
+In RNNs, our output at time t, depends not only on the current input and the weight, but also on previous inputs. In this case the output at time t will be defined as:
+
+<img src="images/equation29.png" alt="Elman Network" class="inline"/>
+
+This is the RNN folded model:
+
+<img src="images/screen-shot-2017-11-06-at-2.09.07-pm.png" alt=" " class="inline"/>
+
+The model can also be "unfolded in time". The unfolded model is usually what we use when working with RNNs.
+
+<img src="images/rnn-unfolded-model.png" alt="Elman Network" class="inline"/>
+
+
+In FFNNs the hidden layer depended only on the current inputs and weights, as well as on an activation function Φ
+
+In RNNs the state layer depended on the current inputs, their corresponding weights, the activation function and also on the previous state:
+
+<img src="images/equation31.png" alt="Elman Network" class="inline"/>
+
+The output vector is calculated exactly the same as in FFNNs. It can be a linear combination of the inputs to each output node with the corresponding weight matrix W:
+
+<img src="images/equation32.png" alt="Elman Network" class="inline"/>
